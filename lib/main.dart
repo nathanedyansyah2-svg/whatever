@@ -14,7 +14,7 @@ class MyMaterialApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3:true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.green,
+          seedColor: Colors.orangeAccent,
           ) 
       ),
       home: MyHomePage(),
@@ -28,6 +28,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigo,
+        foregroundColor: Colors.white,
         title: Text('Aplikasi Mahasiswa'
         ),
       ),
