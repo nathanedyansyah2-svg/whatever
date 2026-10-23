@@ -30,7 +30,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
-        title: Text('Aplikasi Mahasiswa'
+        title: Text('Dashboard Mahasiswa'
         ),
       ),
       body: Center(
