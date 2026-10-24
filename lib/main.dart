@@ -17,6 +17,14 @@ class MyMaterialApp extends StatelessWidget {
           seedColor: Colors.orangeAccent,
           ) 
       ),
+      darkTheme: ThemeData( 
+       useMaterial3: true,
+       colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.orangeAccent,
+          brightness: Brightness.dark, 
+        ),
+      ),
+      themeMode: ThemeMode.dark,
       home: MyHomePage(),
     );
   }
